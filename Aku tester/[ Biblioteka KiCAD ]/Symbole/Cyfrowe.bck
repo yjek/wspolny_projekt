@@ -1,0 +1,28 @@
+EESchema-DOCLIB  Version 2.0  Date: pią, 28 gru 2012, 19:32:51
+#
+$CMP 74573
+D 74573
+K 74573
+$ENDCMP
+#
+$CMP ATMEGA16-A
+D ATmega16 TQFP-44
+K ATmega16
+$ENDCMP
+#
+$CMP ATMEGA32-A
+D ATmega32 TQFP-44
+K ATmega32
+$ENDCMP
+#
+$CMP ATMEGA64-A
+D ATmega64 TQFP-64
+K ATmega64
+$ENDCMP
+#
+$CMP ATMEGA8-A
+D ATmega8 TQFP-32
+K ATmega8
+$ENDCMP
+#
+#End Doc Library

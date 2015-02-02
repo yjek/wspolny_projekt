@@ -1,0 +1,297 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = sob, 22 lut 2014, 16:55:59
+
+BeginCmp
+TimeStamp = /5140F82E;
+Reference = D1;
+ValeurCmp = 1N4148;
+IdModule  = DO-35;
+EndCmp
+
+BeginCmp
+TimeStamp = /530788F7;
+Reference = D2;
+ValeurCmp = D_SCH;
+IdModule  = DO-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5140F723;
+Reference = D3;
+ValeurCmp = 1N4148;
+IdModule  = DO-35;
+EndCmp
+
+BeginCmp
+TimeStamp = /50A5650A;
+Reference = F1;
+ValeurCmp = F;
+IdModule  = BEZP-19MM-AMFGN;
+EndCmp
+
+BeginCmp
+TimeStamp = /508845B8;
+Reference = F2;
+ValeurCmp = F;
+IdModule  = BEZP-19MM-AMFGN;
+EndCmp
+
+BeginCmp
+TimeStamp = /50871450;
+Reference = FT1;
+ValeurCmp = FT;
+IdModule  = PIN-2-I;
+EndCmp
+
+BeginCmp
+TimeStamp = /5088E9F4;
+Reference = FT2;
+ValeurCmp = FT;
+IdModule  = PIN-2-I;
+EndCmp
+
+BeginCmp
+TimeStamp = /50EDE60D;
+Reference = J1;
+ValeurCmp = J2;
+IdModule  = bridge_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /50EDE500;
+Reference = K1;
+ValeurCmp = K10;
+IdModule  = IDE-V-10;
+EndCmp
+
+BeginCmp
+TimeStamp = /50A55F51;
+Reference = K3;
+ValeurCmp = Zasilanie;
+IdModule  = ark500-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50D02758;
+Reference = K4;
+ValeurCmp = Badany AKU;
+IdModule  = ark500-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5140F34F;
+Reference = PR1;
+ValeurCmp = 12V;
+IdModule  = ELEKTROMECH-PR-S40-DPDT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5307979F;
+Reference = PR2;
+ValeurCmp = 12V;
+IdModule  = ELEKTROMECH-PR-S40-DPDT;
+EndCmp
+
+BeginCmp
+TimeStamp = /50EDDEFD;
+Reference = R1;
+ValeurCmp = 0R1;
+IdModule  = resistor-10W_9x49;
+EndCmp
+
+BeginCmp
+TimeStamp = /50EDDEF5;
+Reference = R2;
+ValeurCmp = 0R1;
+IdModule  = resistor-10W_9x49;
+EndCmp
+
+BeginCmp
+TimeStamp = /50EDE013;
+Reference = R3;
+ValeurCmp = 0R1;
+IdModule  = resistor-10W_9x49;
+EndCmp
+
+BeginCmp
+TimeStamp = /50EDE01B;
+Reference = R4;
+ValeurCmp = 0R1;
+IdModule  = resistor-10W_9x49;
+EndCmp
+
+BeginCmp
+TimeStamp = /5140F9F9;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = resistor-0207/7;
+EndCmp
+
+BeginCmp
+TimeStamp = /5140FC25;
+Reference = R6;
+ValeurCmp = Jeszcze nie wiem;
+IdModule  = resistor-0207/10;
+EndCmp
+
+BeginCmp
+TimeStamp = /5148D98B;
+Reference = R7;
+ValeurCmp = 10k;
+IdModule  = resistor-0207/7;
+EndCmp
+
+BeginCmp
+TimeStamp = /5148D992;
+Reference = R8;
+ValeurCmp = 2k2;
+IdModule  = resistor-0207/7;
+EndCmp
+
+BeginCmp
+TimeStamp = /5148D9B6;
+Reference = R9;
+ValeurCmp = 1k5;
+IdModule  = resistor-0207/7;
+EndCmp
+
+BeginCmp
+TimeStamp = /5148D9C6;
+Reference = R10;
+ValeurCmp = 1k5;
+IdModule  = resistor-0207/7;
+EndCmp
+
+BeginCmp
+TimeStamp = /5140FA75;
+Reference = R11;
+ValeurCmp = 10k;
+IdModule  = resistor-0207/7;
+EndCmp
+
+BeginCmp
+TimeStamp = /5140FBAD;
+Reference = R12;
+ValeurCmp = Jeszcze nie wiem;
+IdModule  = resistor-0207/10;
+EndCmp
+
+BeginCmp
+TimeStamp = /508708CE;
+Reference = R13;
+ValeurCmp = 100k;
+IdModule  = resistor-0207/7;
+EndCmp
+
+BeginCmp
+TimeStamp = /5148E141;
+Reference = R14;
+ValeurCmp = 1k5;
+IdModule  = resistor-0207/7;
+EndCmp
+
+BeginCmp
+TimeStamp = /50CF899D;
+Reference = R15;
+ValeurCmp = 0R1;
+IdModule  = resistor-10W_9x49;
+EndCmp
+
+BeginCmp
+TimeStamp = /50CF8994;
+Reference = R16;
+ValeurCmp = 0R1;
+IdModule  = resistor-10W_9x49;
+EndCmp
+
+BeginCmp
+TimeStamp = /50CCD43F;
+Reference = R17;
+ValeurCmp = 0R1;
+IdModule  = resistor-10W_9x49;
+EndCmp
+
+BeginCmp
+TimeStamp = /508706CA;
+Reference = R18;
+ValeurCmp = 0R1;
+IdModule  = resistor-25W_17x29;
+EndCmp
+
+BeginCmp
+TimeStamp = /508845E4;
+Reference = R24;
+ValeurCmp = 100k;
+IdModule  = resistor-0207/10;
+EndCmp
+
+BeginCmp
+TimeStamp = /50CF894A;
+Reference = R25;
+ValeurCmp = 0R1;
+IdModule  = resistor-10W_9x49;
+EndCmp
+
+BeginCmp
+TimeStamp = /50CF8948;
+Reference = R26;
+ValeurCmp = 0R1;
+IdModule  = resistor-10W_9x49;
+EndCmp
+
+BeginCmp
+TimeStamp = /50CCD307;
+Reference = R27;
+ValeurCmp = 0R1;
+IdModule  = resistor-10W_9x49;
+EndCmp
+
+BeginCmp
+TimeStamp = /508708B8;
+Reference = T1;
+ValeurCmp = IRFP9140;
+IdModule  = TO-247AC_V_inv;
+EndCmp
+
+BeginCmp
+TimeStamp = /508845AD;
+Reference = T2;
+ValeurCmp = IRFP054N;
+IdModule  = TO-247AC_V_inv;
+EndCmp
+
+BeginCmp
+TimeStamp = /5140F66A;
+Reference = T3;
+ValeurCmp = BC547;
+IdModule  = TO-92-B;
+EndCmp
+
+BeginCmp
+TimeStamp = /5148D97E;
+Reference = T4;
+ValeurCmp = BC547;
+IdModule  = TO-92-B;
+EndCmp
+
+BeginCmp
+TimeStamp = /5148D9A9;
+Reference = T5;
+ValeurCmp = T_PNP;
+IdModule  = TO-92-B;
+EndCmp
+
+BeginCmp
+TimeStamp = /5140F65D;
+Reference = T6;
+ValeurCmp = BC547;
+IdModule  = TO-92-B;
+EndCmp
+
+BeginCmp
+TimeStamp = /5148E13B;
+Reference = T7;
+ValeurCmp = T_PNP;
+IdModule  = TO-92-B;
+EndCmp
+
+EndListe

@@ -1,0 +1,238 @@
+
+C H A N G E L O G
+_________________
+	
+	-------------------------------------------
+	Z M I A N Y   D O   W P R O W A D Z E N I A
+	-------------------------------------------
+	
+	nie, 10 lis 2013, 21:15:03 
+		Poprawić Model X-HC49-H i X-HC49-SMD
+		(warstwa obrysu włazi na pole lutownicze).
+		Dodać ewentualnie wersje z uziemieniem (GND).
+
+	śro, 12 cze 2013, 13:21:44 
+		Poprawić pady: niektóre elementy THT mają źle zaznaczone warstwy techniczne
+		(F.Paste zamiast B.Mask).
+		Stworzyć dodatkowy, okrągły symbol złącza DC.
+
+	pon, 6 maj 2013, 22:52:33 
+		Poprawić S-DP3T w bibliotece symboli elektromechanicznych. Sekcja A i B mają te same
+		numery pinów.
+
+	nie, 5 maj 2013, 20:09:03 
+		Poprawić rozmiary otworów. Wcześniejsze wersje KiCAD-a chyba operowały wyłacznie na
+		wielkościach calowych i zapis metryczny np 0,3 zachowywany był jako 0,29999.
+		Na dień dzisiejszy takiego problemu KiCAD nie powoduje a niejednoznaczna forma średnicy
+		otworu utrudnia korzystanie z mapy	wierceń.
+
+	pon, 25 mar 2013, 13:52:42 
+		Wszystkie obudowy TO-220
+			Zmienić średnicę otworów z 1,2mm na 1,0mm.
+		Obudowa IND-V-5-10
+			Zmienić średnicę otworów z 1,2mm na 1,0mm.
+
+	-----------------
+	C H A N G E L O G
+	-----------------
+
+	__________________________
+	czw, 20 lut 2014, 22:34:21 
+	Biblioteka modeli:			Modele: Poprawiłem DO-5, -8, -13. Grubość linii na 0,1mm, tekst
+							na 1x0,1 i dodałem obrysy otworów.
+							Poprawiłem obrys ELE-3.5-8, dodałem obrys otworów padów,
+							poprawiłem rozmiary napisów. Tak samo TO-126-V-B.
+	__________________________
+	śro, 19 lut 2014, 10:23:18 
+	Biblioteka Modeli:			Modele: Poprawiłem rozmiar padów na nóżki w TO-252, TO-252-U,
+							TO-252-AA i usunąłem w nich obrys nachodzący na pady tak jak w
+							D-SMC, SMD-ET-D. Poprawiłem D-MINIMELF; przybliżyłem do siebie
+							pady o 0,35mm bo dioda ledwo sięgała ich krawędzi.
+
+	__________________________
+	wto, 18 lut 2014, 22:22:57 
+	Biblioteka symboli:			Elektromechaniczne: Dodałem S_DIPSWITCH_4.
+
+	__________________________
+	pon, 3 lut 2014, 10:11:19 
+	Biblioteka modeli:			Modele: Dodałem OPTO-HMHP-E1L.
+
+	__________________________
+	wto, 28 sty 2014, 12:37:41 
+	Biblioteka modeli:			Modele: Dodałem SCALONE-SOP-8-300, zmieniłem: SOP-8 →
+							SCALONE-SOP-8-200, SOP-8-T → SCALONE-SOP-8-200-T.
+
+	__________________________
+	czw, 9 sty 2014, 21:58:07 
+	Biblioteka symboli:			Elektromechaniczne: Wszystkie symbole poprawiłem graficznie.
+
+	__________________________
+	czw, 12 gru 2013, 11:31:29 
+	Biblioteka symboli:			Cyfrowe: Dodałem ATtiny13, ATtiny25 i poprawiłem ATtiny12.
+	Biblioteka modeli:			Modele:	Poprawiłem napisy i szerokość obrysu SOT-23-B, SOP-8,
+							SOP-8-T, SOP-14, SOP-16, SOP-18.
+	
+	__________________________
+	śro, 11 gru 2013, 11:18:26 
+	Biblioteka obudów:			Modele: Zwiększyłem rozstaw padów SOT-23-6, żeby bardziej spod
+							pinów wystawały w celu ułatwienia lutowania ręcznie. (Pozycja
+							pola lutowniczego Y: 1,1 → 1,4 i -1,1 → -1,4).
+							Zmieniłem wielkość napisów SMD-C-1206 na 0,7.
+							
+	__________________________
+	wto, 10 gru 2013, 22:47:40 
+	Biblioteka obudów:			Modele: Dodałem SOT-23-6.
+	Biblioteka symboli:			Analogowe: Dodałem KF5241 i jego alias QX5241.
+
+	__________________________
+	sob, 23 lis 2013, 23:44:48 
+	Biblioteka obudów:			Modele: SCALONE-DIP-20-300 poprawiłem powtarzający się pin 18 na
+							brakujący	19.
+	__________________________
+	sob, 23 lis 2013, 11:58:04  
+	Biblioteka symboli:			power:
+							Zrobiłem porządek z symbolami AGND, DGND, GND i GND-PWR,
+							PWR-FLAG,	+5V i +12V.
+							Dodałem GND-PE.
+	__________________________
+	śro, 13 lis 2013, 00:54:33 
+	Biblioteka modeli:			Optoelektronika:
+							Dodałem LED-7SEG-LD-S230, IR-TSOP-V, IR-TSOP-H.
+							Podstawowe:
+							Poprawiłem TO-92.
+	Biblioteka symboli:			Przeniosłem wyświetlacze i odbiorniki IR
+							z Cyfrowe do Optoelektronika.
+	__________________________
+	pon, 11 lis 2013, 12:46:37 
+	Biblioteka modeli: Modele/
+				    Złącza:	Poprawiłem złącza ZA-3, ~5 i ~7. Przeniosłem z Modele do Złącza
+							(ZŁĄCZA-ZA-3, ZŁĄCZA-ZA5, ZŁĄCZA-ZA-7).
+	__________________________
+	nie, 10 lis 2013, 19:00:17 
+	Biblioteka modeli: Modele	Poprawiłem DIP-40 na SCALONE-DIP-40-600
+							(DIP-4, DIP-6, DIP-28-600).
+							Dodałem SCALONE-DIP-18-300 i ~20-300.
+							Dodałem X-TC38-V, ~H, ~H-SMD.
+							Poprawiłem X-HC49-V
+	__________________________
+	pon, 21 paź 2013, 22:42:29 
+	Biblioteka symboli: Cyfrowe:	dodałem ULN2803 wraz ze skonwertowanym symbolem deMorgan'a,
+							dodałem do 74573 skonwertowany model deMorgan'a.
+	__________________________
+	sob, 12 paź 2013, 18:30:28 
+	Biblioteka symboli: Złącza: Zmieniłem grubość linii złącz ISP na 0,010".
+	Dodałem do nazwy pinów Reset znak ~ (zanegowany).
+	Bibioteka symboli: Cyfrowe: Dodałem DS1307.
+	Biblioteka symboli: Pozostałe: Poprawiłem grubość linii TR.
+	__________________________
+	pią, 23 sie 2013, 18:37:40 
+	Biblioteka modeli: dodałem MECHANICZNE-PAD-3.5-8 i MECHANICZNE-PAD-3.5-7, usunąłem
+	PAD-3.5-8.
+	__________________________
+	śro, 21 sie 2013, 11:29:05 
+	Biblioteka symboli, Podstawowe: Dodałem parametry napięcia, prądu, mocy i pojemności do
+	CD (ceradiody) i do TVS (transila).
+	Biblioteka modeli: Dodałem SCALONE-DIP-8-300, SCALONE-DIP-14-300, SCALONE-DIP-16-300 i
+	SCALONE-DIP-28-300, usunąłem DIP-28-300, DIP-14, DIP-8.
+	__________________________
+	wto, 20 sie 2013, 12:15:37 
+	Biblioteka obudów, Modele: Poprawiłem średnice kondenstatora ELE-2.5-6 z 6,4 na 6,0 i dodałem
+	ELE-2.5-6.5.
+	Zmniejszyłem wielkość prostokąta w AXIAL-H-8 (czytelniejszy).
+	Biblioteka obudów, Elektromechaniczne: dodałem PAD-3.5-8 na śrubki i dystanse.
+	Biblioteka symboli, Elektromechaniczne: dodałem PAD na śrubki i dystanse.
+	Biblioteka obudów, Złącza: dodałem DG306-5.0-2
+	_________________________
+	wto, 13 sie 2013, 16:17:44 
+	Biblioteka symboli, Pozostałe: dodałem symbol J1 (J2 już istnieje). Prosta linia mająca na celu
+	zachowanie mostków przy np ponownym wypełnianiu stref, jednak nie mający wpływu swoją
+	obecnością na układ elektryczny.
+	_________________________
+	pią, 2 sie 2013, 11:59:45 
+	Biblioteka symboli, Cyfrowe: dodałem 7404 i 7414.
+	Biblioteka symboli, Złącza: dodałem dodatkowo symbol DC okrągły (DC przekątny już istnieje i
+	zmieniłem	jego nazwe na DC_S).
+	Biblioteka symboli, Pozostałe: poprawiłem grubość lini L_RDZ.
+	Biblioteka modeli, Modele: dodałem DIP-14
+	_________________________
+	pon, 6 maj 2013, 22:49:48 
+	Poprawiłem w bibliotece symboli Elektromechaniczne S-SPDT - nie było pinu 3 za to był
+	powtórzony pin1.	
+	_________________________
+	nie, 5 maj 2013, 23:43:27 
+	Biblioteka obudów, Optoelektronika: zmieniłem grubość i rozmiar etykiet LCD-2X16 na 1,5x1,5mm i
+	0,15mm.
+	Biblioteka obudów, Modele: zmieniłem grubość linii na 0,2mm i warstwę pinu z obrysowej elementu
+	na rysunkową oraz poprawiłem rozmiary otworów pól lutowniczych spowodowane błędami
+	wcześniejszych wersji KiCAD-a (zapisanie 0,3 powodowało zachowanie 0,29999 - to utrudnia
+	korzystanie z mapy wierceń) w AXIAL-V-2.5-1.5, AXIAL-V-2.5-3, AXIAL-V-3.5-2.2, AXIAL-V-3.5-4.
+	__________________________
+	nie, 28 kwi 2013, 23:47:27 
+	Dodałem element SW-12X12 do biblioteki ELEKTROMECHANICZNE
+	Poprawiłem element SW na SW-6X6 i przeniosłem go z biblioteki MODELE
+	do ELEKTROMECHANICZNE.
+	Poprawiłem grubość obrysu diody LED-O-5mm, TO-92-B *-U *-TL431.
+	Dodałem obudowę S-5MS1 do ELEKTROMECHANICZNE.
+	__________________________
+	wto, 16 kwi 2013, 22:12:47 
+	Dodałem element Buzz do biblioteki symboli Podstawowych.
+	Dodałem element APE1117 do biblioteki syboli Analogowych.
+	_________________________
+	nie, 7 kwi 2013, 21:54:05 
+	Uporządkowałem kolejność pinów MAX485 w bibliotece symboli Cyfrowe.
+	_________________________
+	pią, 15 mar 2013, 17:51:11 
+	Dodałem do biblioteki Analogowe
+	MAX7456
+		do biblioteki Złącza
+	RCA-S (chinch z pinem-sondą)
+	Poprawiłem rozmiary nazw w bibliotece power
+	+5VA
+	+5VP
+	Poprawiłem grubość linii złącz RCA, RCA-S w bibliotece Złącza.
+	__________________________
+	śro, 13 mar 2013, 23:05:49 
+	Poprawiłem w bibliotece power
+	wielkość napisów elementów +5V i +3.3V na 40 milsów.
+	_________________________
+	wto, 5 mar 2013, 01:20:13 
+	Dodałem bibliotekę Opto
+	Opto
+		Dodałem XP-E
+	__________________________
+	pią, 30 lis 2012, 14:01:23 
+	Modele
+		Zamieniłem miejscami błędne oznaczenia pinów R i K obudowy SOT-23-TL431
+	__________________________
+	śro, 28 lis 2012, 15:26:49 
+	Modele
+	Dodałem DLG0504
+	Zmieniłem TL431 na TO-92-TL431
+	Dodałem SOT-23-TL431
+	__________________________
+	nie, 25 lis 2012, 18:34:42 
+	Symbole Analogowe
+		Usunąłem 7805.
+		Dodałem 78xx, 78Lxx, 79xx, 79Lxx i poprawiłem pinout.
+		Poprawiłem graficznie potencjometr P
+	Symbole Pozostałe
+		Poprawiłem graficznie potencjometr podwójny P_DUO
+
+	__________________________
+	pon, 19 lis 2012, 11:24:53
+	Modele: zmieniłem grubości lini na 0,3mm w THT do DIP-40 włącznie oraz
+		ZA-5
+		RAD-5 (oraz kształt)
+		RAD-3 (oraz kształt)
+		TO-92-B
+		TO-92
+		TO-92-U
+		TO-92-UR
+		TO-126-V-B
+		TO-220-V-U
+		Zmieniłem grubość blachy na radiator
+		TO-220-V-U
+		TO-126-V-B
+		Zmieniłem TO-92-TL na TL-431 i usunąłem TO-92-TL oraz zmieniłem grubość linii TL431 na
+		0,3mm
+		Zmieniłem DO-6 na DO-5 oraz jego kształt
