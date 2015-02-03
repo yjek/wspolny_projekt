@@ -1,164 +1,164 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = pią, 21 lut 2014, 08:36:35
+Cmp-Mod V01 Created by Cvpcb (2015.01.20 BZR5383)-product   date = wto, 3 lut 2015, 22:30:04
 
 BeginCmp
-TimeStamp = /530400BE;
+TimeStamp = /54D13C7F;
 Reference = C1;
 ValeurCmp = 100n;
-IdModule  = c_0402;
+IdModule  = Resistors_SMD:R_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /53040100;
+TimeStamp = /54D13CD2;
 Reference = C2;
 ValeurCmp = 100n;
-IdModule  = c_0402;
+IdModule  = Resistors_SMD:R_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /530518ED;
+TimeStamp = /54D13F35;
+Reference = C3;
+ValeurCmp = 1µ;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D1410B;
 Reference = C4;
 ValeurCmp = 1µ;
-IdModule  = c_1206;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /530518FA;
+TimeStamp = /54D1423D;
 Reference = C5;
-ValeurCmp = 1µ;
-IdModule  = c_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /53051E2B;
-Reference = C6;
 ValeurCmp = 100n;
-IdModule  = c_0402;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /530288A6;
 Reference = IC1;
 ValeurCmp = ATXMEGA32A4-M;
-IdModule  = microchip-dspic-QFN44-8X8;
+IdModule  = SMD_Packages:QFN-44-1EP;
 EndCmp
 
 BeginCmp
-TimeStamp = /53051E1E;
+TimeStamp = /54D1443A;
 Reference = L1;
-ValeurCmp = L;
-IdModule  = SM1206;
+ValeurCmp = INDUCTOR_SMALL;
+IdModule  = Choke_SMD:Choke_SMD_1206_Handsoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /53028946;
 Reference = P1;
 ValeurCmp = DIL40;
-IdModule  = DIP-40__600_ELL;
+IdModule  = Sockets_DIP:DIP-40__600_ELL;
 EndCmp
 
 BeginCmp
 TimeStamp = /53051042;
 Reference = Q1;
 ValeurCmp = BC817-40;
-IdModule  = sot23;
+IdModule  = Transistors_SMD:sot23;
 EndCmp
 
 BeginCmp
 TimeStamp = /53051009;
 Reference = Q2;
 ValeurCmp = BC817-40;
-IdModule  = sot23;
+IdModule  = Transistors_SMD:sot23;
 EndCmp
 
 BeginCmp
 TimeStamp = /53050FE0;
 Reference = Q3;
 ValeurCmp = BC817-40;
-IdModule  = sot23;
+IdModule  = Transistors_SMD:sot23;
 EndCmp
 
 BeginCmp
 TimeStamp = /53051250;
 Reference = R1;
 ValeurCmp = 10k;
-IdModule  = SM1206;
+IdModule  = Resistors_SMD:R_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5304B1A1;
 Reference = R2;
 ValeurCmp = 10k;
-IdModule  = SM1206;
+IdModule  = Resistors_SMD:R_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /53049B37;
 Reference = R3;
 ValeurCmp = 10k;
-IdModule  = SM1206;
+IdModule  = Resistors_SMD:R_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5304B55B;
 Reference = R4;
 ValeurCmp = 10k;
-IdModule  = SM1206;
+IdModule  = Resistors_SMD:R_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /53049743;
 Reference = R5;
 ValeurCmp = 10k;
-IdModule  = SM1206;
+IdModule  = Resistors_SMD:R_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5303C54D;
 Reference = R6;
 ValeurCmp = 10k;
-IdModule  = SM1206;
+IdModule  = Resistors_SMD:R_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5303C517;
 Reference = R7;
 ValeurCmp = 4k7;
-IdModule  = SM1206;
+IdModule  = Resistors_SMD:R_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5303ADB4;
 Reference = R8;
 ValeurCmp = 10k;
-IdModule  = SM1206;
+IdModule  = Resistors_SMD:R_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /530663B2;
 Reference = R9;
 ValeurCmp = 0R;
-IdModule  = SM1206;
+IdModule  = Resistors_SMD:R_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /530663CC;
 Reference = R10;
 ValeurCmp = 0R;
-IdModule  = SM1206;
+IdModule  = Resistors_SMD:R_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /53066218;
 Reference = R11;
 ValeurCmp = 0R;
-IdModule  = SM1206;
+IdModule  = Resistors_SMD:R_1206;
 EndCmp
 
 BeginCmp
-TimeStamp = /530518DE;
-Reference = US1;
-ValeurCmp = APE8800-3;
-IdModule  = sot89;
+TimeStamp = /54D1474B;
+Reference = U1;
+ValeurCmp = APE8865N-33-HF-3;
+IdModule  = SMD_Packages:SOT-23;
 EndCmp
 
 EndListe
