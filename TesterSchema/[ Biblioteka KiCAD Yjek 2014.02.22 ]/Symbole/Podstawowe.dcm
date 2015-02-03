@@ -1,0 +1,22 @@
+EESchema-DOCLIB  Version 2.0  Date: pią, 6 gru 2013, 19:14:57
+#
+$CMP BAT
+K bateria
+$ENDCMP
+#
+$CMP C_TRYM
+D C
+K trymer
+$ENDCMP
+#
+$CMP D_WAR
+D D
+K warikap
+$ENDCMP
+#
+$CMP OP
+D OP
+K Transoptor
+$ENDCMP
+#
+#End Doc Library

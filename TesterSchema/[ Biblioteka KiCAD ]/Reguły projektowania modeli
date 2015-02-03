@@ -1,0 +1,11 @@
+Grubości linii:
+	obrys elementów SMD:			0,1mm
+	obrys elementów THT:			0,3mm lub większy w zależności od wysokości elementu
+	(druty np rezystorów:			takie jak rzeczywista średnica pinu np rezystora - to 		pozwoli uniknąć wykonania PCB z np za małymi otworami i widać wyraźnie nieizolowane części 		elementów.)
+
+Rozmiary tekstów:
+	SMD:			linia:	0,1mm	wysokość tekstu:	1mm
+	THT:			linia:	0,15mm	wysokość tekstu:	1,5mm lub więcej w zależności
+									od wielkości elementu
+
+"Gołe" metalowe elementy warto rysować z wypełnieniem, np gniazdo RCA (chinch) - wtedy ułatwia projektowanie i przypomina o nieizolowanej, dużej części na PCB.

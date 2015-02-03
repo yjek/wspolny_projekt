@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0  Date: czw, 9 sty 2014, 21:57:05
+#
+$CMP S_DP3T
+D S DP3T
+K Wylacznik
+$ENDCMP
+#
+$CMP S_SPDT
+D S
+K Wylacznik
+$ENDCMP
+#
+$CMP S_SPST
+D S
+K Wylacznik
+$ENDCMP
+#
+$CMP SK
+D SK
+K Kontaktron
+$ENDCMP
+#
+#End Doc Library

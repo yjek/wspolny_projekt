@@ -1,0 +1,84 @@
+21:41:29 **** Clean-only build of configuration Release for project src ****
+make clean 
+rm -rf  src.lss  src.hex  ./fixedpoint/fixed_func.o  ./main.o ./new.o  src.eep  sizedummy  ./fixedpoint/fixed_func.d  ./main.d ./new.d  src.elf
+ 
+21:41:29 **** Incremental Build of configuration Release for project src ****
+make all 
+Building file: ../fixedpoint/fixed_func.cpp
+Invoking: AVR C++ Compiler
+avr-g++ -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -funsigned-char -funsigned-bitfields -fno-exceptions -Wextra -pedantic -g -std=c++11 -mmcu=atxmega32a4 -DF_CPU=32000000UL -MMD -MP -MF"fixedpoint/fixed_func.d" -MT"fixedpoint/fixed_func.d" -c -o "fixedpoint/fixed_func.o" "../fixedpoint/fixed_func.cpp"
+In file included from ../fixedpoint/fixed_func.cpp:36:0:
+../fixedpoint/fixed_func.h: In function 'int fixedpoint::fixdiv(int32_t, int32_t)':
+../fixedpoint/fixed_func.h:84:3: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+   };
+   ^
+../fixedpoint/fixed_func.cpp: In function 'int32_t fixedpoint::fixcos16(int32_t)':
+../fixedpoint/fixed_func.cpp:59:25: warning: left shift count >= width of type [enabled by default]
+  v = fixmul<16>(v, 1 << 16);
+                         ^
+../fixedpoint/fixed_func.cpp: In function 'int32_t fixedpoint::fixsin16(int32_t)':
+../fixedpoint/fixed_func.cpp:75:28: warning: left shift count >= width of type [enabled by default]
+     v = fixmul<16>(v, 1 << 16);
+                            ^
+../fixedpoint/fixed_func.cpp: In function 'int32_t fixedpoint::fixrsqrt16(int32_t)':
+../fixedpoint/fixed_func.cpp:89:18: warning: left shift count >= width of type [enabled by default]
+     if (a == (1<<16)) return a;
+                  ^
+../fixedpoint/fixed_func.cpp:107:30: warning: left shift count >= width of type [enabled by default]
+   x = fixmul<16>((x>>1),((1<<16)*3 - fixmul<16>(fixmul<16>(a,x),x)));
+                              ^
+../fixedpoint/fixed_func.cpp: In function 'int32_t fixedpoint::fixsqrt16(int32_t)':
+../fixedpoint/fixed_func.cpp:126:18: warning: left shift count >= width of type [enabled by default]
+     s = (a + (1<<16)) >> 1;
+                  ^
+Finished building: ../fixedpoint/fixed_func.cpp
+ 
+Building file: ../main.cpp
+Invoking: AVR C++ Compiler
+avr-g++ -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -funsigned-char -funsigned-bitfields -fno-exceptions -Wextra -pedantic -g -std=c++11 -mmcu=atxmega32a4 -DF_CPU=32000000UL -MMD -MP -MF"main.d" -MT"main.d" -c -o "main.o" "../main.cpp"
+In file included from ../fixedpoint/fixed_class.h:40:0,
+                 from ../main.cpp:10:
+../fixedpoint/fixed_func.h: In function 'int fixedpoint::fixdiv(int32_t, int32_t)':
+../fixedpoint/fixed_func.h:84:3: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+   };
+   ^
+Finished building: ../main.cpp
+ 
+Building file: ../new.cpp
+Invoking: AVR C++ Compiler
+avr-g++ -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -funsigned-char -funsigned-bitfields -fno-exceptions -Wextra -pedantic -g -std=c++11 -mmcu=atxmega32a4 -DF_CPU=32000000UL -MMD -MP -MF"new.d" -MT"new.d" -c -o "new.o" "../new.cpp"
+Finished building: ../new.cpp
+ 
+Building target: src.elf
+Invoking: AVR C++ Linker
+avr-g++ -Wl,-Map,src.map,--cref -mrelax -Wl,--gc-sections -mmcu=atxmega32a4 -o "src.elf"  ./fixedpoint/fixed_func.o  ./main.o ./new.o   
+/usr/bin/avr-ld: warning: -z relro ignored.
+Finished building target: src.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S src.elf  >"src.lss"
+Finished building: src.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex src.elf  "src.hex"
+Finished building: src.hex
+ 
+Create eeprom image (ihex format)
+avr-objcopy -j .eeprom --no-change-warnings --change-section-lma .eeprom=0 -O ihex src.elf  "src.eep"
+Finished building: src.eep
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atxmega32a4 src.elf
+AVR Memory Usage
+----------------
+Device: atxmega32a4
+
+Program:    1256 bytes (3.4% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
