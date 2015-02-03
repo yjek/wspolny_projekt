@@ -1,4 +1,4 @@
-21:41:29 **** Incremental Build of configuration Release for project src ****
+21:50:39 **** Build of configuration Release for project TesterApp ****
 make all 
 Building file: ../fixedpoint/fixed_func.cpp
 Invoking: AVR C++ Compiler
@@ -45,26 +45,26 @@ Invoking: AVR C++ Compiler
 avr-g++ -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -funsigned-char -funsigned-bitfields -fno-exceptions -Wextra -pedantic -g -std=c++11 -mmcu=atxmega32a4 -DF_CPU=32000000UL -MMD -MP -MF"new.d" -MT"new.d" -c -o "new.o" "../new.cpp"
 Finished building: ../new.cpp
  
-Building target: src.elf
+Building target: TesterApp.elf
 Invoking: AVR C++ Linker
-avr-g++ -Wl,-Map,src.map,--cref -mrelax -Wl,--gc-sections -mmcu=atxmega32a4 -o "src.elf"  ./fixedpoint/fixed_func.o  ./main.o ./new.o   
+avr-g++ -Wl,-Map,TesterApp.map,--cref -mrelax -Wl,--gc-sections -mmcu=atxmega32a4 -o "TesterApp.elf"  ./fixedpoint/fixed_func.o  ./main.o ./new.o   
 /usr/bin/avr-ld: warning: -z relro ignored.
-Finished building target: src.elf
+Finished building target: TesterApp.elf
  
 Invoking: AVR Create Extended Listing
-avr-objdump -h -S src.elf  >"src.lss"
-Finished building: src.lss
+avr-objdump -h -S TesterApp.elf  >"TesterApp.lss"
+Finished building: TesterApp.lss
  
 Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex src.elf  "src.hex"
-Finished building: src.hex
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex TesterApp.elf  "TesterApp.hex"
+Finished building: TesterApp.hex
  
 Create eeprom image (ihex format)
-avr-objcopy -j .eeprom --no-change-warnings --change-section-lma .eeprom=0 -O ihex src.elf  "src.eep"
-Finished building: src.eep
+avr-objcopy -j .eeprom --no-change-warnings --change-section-lma .eeprom=0 -O ihex TesterApp.elf  "TesterApp.eep"
+Finished building: TesterApp.eep
  
 Invoking: Print Size
-avr-size --format=avr --mcu=atxmega32a4 src.elf
+avr-size --format=avr --mcu=atxmega32a4 TesterApp.elf
 AVR Memory Usage
 ----------------
 Device: atxmega32a4
@@ -79,5 +79,5 @@ Data:         18 bytes (0.4% Full)
 Finished building: sizedummy
  
 
-21:41:30 Build Finished (took 218ms)
+21:50:40 Build Finished (took 217ms)
 
