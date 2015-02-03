@@ -46,56 +46,56 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 LSS += \
-src.lss \
+TesterApp.lss \
 
 FLASH_IMAGE += \
-src.hex \
+TesterApp.hex \
 
 EEPROM_IMAGE += \
-src.eep \
+TesterApp.eep \
 
 SIZEDUMMY += \
 sizedummy \
 
 
 # All Target
-all: src.elf secondary-outputs
+all: TesterApp.elf secondary-outputs
 
 # Tool invocations
-src.elf: $(OBJS) $(USER_OBJS)
+TesterApp.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: AVR C++ Linker'
-	avr-g++ -Wl,-Map,src.map,--cref -mrelax -Wl,--gc-sections -mmcu=atxmega32a4 -o "src.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	avr-g++ -Wl,-Map,TesterApp.map,--cref -mrelax -Wl,--gc-sections -mmcu=atxmega32a4 -o "TesterApp.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-src.lss: src.elf
+TesterApp.lss: TesterApp.elf
 	@echo 'Invoking: AVR Create Extended Listing'
-	-avr-objdump -h -S src.elf  >"src.lss"
+	-avr-objdump -h -S TesterApp.elf  >"TesterApp.lss"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-src.hex: src.elf
+TesterApp.hex: TesterApp.elf
 	@echo 'Create Flash image (ihex format)'
-	-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex src.elf  "src.hex"
+	-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex TesterApp.elf  "TesterApp.hex"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-src.eep: src.elf
+TesterApp.eep: TesterApp.elf
 	@echo 'Create eeprom image (ihex format)'
-	-avr-objcopy -j .eeprom --no-change-warnings --change-section-lma .eeprom=0 -O ihex src.elf  "src.eep"
+	-avr-objcopy -j .eeprom --no-change-warnings --change-section-lma .eeprom=0 -O ihex TesterApp.elf  "TesterApp.eep"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-sizedummy: src.elf
+sizedummy: TesterApp.elf
 	@echo 'Invoking: Print Size'
-	-avr-size --format=avr --mcu=atxmega32a4 src.elf
+	-avr-size --format=avr --mcu=atxmega32a4 TesterApp.elf
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(C_UPPER_DEPS)$(S_DEPS)$(LSS)$(C_DEPS)$(FLASH_IMAGE)$(CC_DEPS)$(ELFS)$(C++_DEPS)$(OBJS)$(CXX_DEPS)$(ASM_DEPS)$(EEPROM_IMAGE)$(SIZEDUMMY)$(S_UPPER_DEPS)$(CPP_DEPS) src.elf
+	-$(RM) $(C_UPPER_DEPS)$(S_DEPS)$(LSS)$(C_DEPS)$(FLASH_IMAGE)$(CC_DEPS)$(ELFS)$(C++_DEPS)$(OBJS)$(CXX_DEPS)$(ASM_DEPS)$(EEPROM_IMAGE)$(SIZEDUMMY)$(S_UPPER_DEPS)$(CPP_DEPS) TesterApp.elf
 	-@echo ' '
 
 secondary-outputs: $(LSS) $(FLASH_IMAGE) $(EEPROM_IMAGE) $(SIZEDUMMY)
