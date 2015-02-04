@@ -1,8 +1,8 @@
-update=czw, 10 sty 2013, 21:40:39
+update=śro, 4 lut 2015, 22:31:28
 last_client=eeschema
 [eeschema]
 version=1
-LibDir=../../../../Biblioteki/[ Biblioteka KiCAD ]/Symbole
+LibDir=../../[ Biblioteka KiCAD ]/Symbole
 NetFmtName=
 RptD_X=0
 RptD_Y=100
