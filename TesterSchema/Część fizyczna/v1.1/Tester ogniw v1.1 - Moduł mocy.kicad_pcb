@@ -648,7 +648,7 @@
       (net 15 N-0000018))
   )
 
-  (module 7: (layer B.Cu) (tedit 200000) (tstamp 50F15A59)
+  (module resistor-0207/7 (layer B.Cu) (tedit 200000) (tstamp 50F15A59)
     (at 225.25 102.5 90)
     (descr RESISTOR)
     (tags RESISTOR)
@@ -692,7 +692,7 @@
       (net 10 N-0000010))
   )
 
-  (module 10: (layer B.Cu) (tedit 5308A016) (tstamp 50F15A79)
+  (module resistor-0207/10 (layer B.Cu) (tedit 5308A016) (tstamp 50F15A79)
     (at 288.75 86.25 180)
     (descr RESISTOR)
     (tags RESISTOR)
@@ -1286,7 +1286,7 @@
     )
   )
 
-  (module 7: (layer F.Cu) (tedit 53089FDF) (tstamp 5308762A)
+  (module resistor-0207/7 (layer F.Cu) (tedit 53089FDF) (tstamp 5308762A)
     (at 178.75 75.25 180)
     (descr RESISTOR)
     (tags RESISTOR)
@@ -1330,7 +1330,7 @@
       (net 30 N-000006))
   )
 
-  (module 7: (layer F.Cu) (tedit 5308A032) (tstamp 5308764A)
+  (module resistor-0207/7 (layer F.Cu) (tedit 5308A032) (tstamp 5308764A)
     (at 340.5 76.25 180)
     (descr RESISTOR)
     (tags RESISTOR)
@@ -1374,7 +1374,7 @@
       (net 31 N-000007))
   )
 
-  (module 7: (layer B.Cu) (tedit 5308A097) (tstamp 5308766A)
+  (module resistor-0207/7 (layer B.Cu) (tedit 5308A097) (tstamp 5308766A)
     (at 218.25 115.25 180)
     (descr RESISTOR)
     (tags RESISTOR)
@@ -1418,7 +1418,7 @@
       (net 11 N-0000013))
   )
 
-  (module 7: (layer B.Cu) (tedit 5308A081) (tstamp 5308768A)
+  (module resistor-0207/7 (layer B.Cu) (tedit 5308A081) (tstamp 5308768A)
     (at 218.25 107.75)
     (descr RESISTOR)
     (tags RESISTOR)
@@ -1462,7 +1462,7 @@
       (net 10 N-0000010))
   )
 
-  (module 7: (layer B.Cu) (tedit 5308A0B0) (tstamp 530876AA)
+  (module resistor-0207/7 (layer B.Cu) (tedit 5308A0B0) (tstamp 530876AA)
     (at 218.25 112.75 180)
     (descr RESISTOR)
     (tags RESISTOR)
@@ -1506,7 +1506,7 @@
       (net 13 N-0000016))
   )
 
-  (module 7: (layer B.Cu) (tedit 5308A0B4) (tstamp 530876CA)
+  (module resistor-0207/7 (layer B.Cu) (tedit 5308A0B4) (tstamp 530876CA)
     (at 218.25 110.25 180)
     (descr RESISTOR)
     (tags RESISTOR)
@@ -1550,7 +1550,7 @@
       (net 33 N-000009))
   )
 
-  (module 7: (layer B.Cu) (tedit 5308A00E) (tstamp 530876EA)
+  (module resistor-0207/7 (layer B.Cu) (tedit 5308A00E) (tstamp 530876EA)
     (at 288.75 83.5)
     (descr RESISTOR)
     (tags RESISTOR)
@@ -1594,7 +1594,7 @@
       (net 32 N-000008))
   )
 
-  (module 10: (layer F.Cu) (tedit 5308A03C) (tstamp 5308770A)
+  (module resistor-0207/10 (layer F.Cu) (tedit 5308A03C) (tstamp 5308770A)
     (at 341.75 73.25 180)
     (descr RESISTOR)
     (tags RESISTOR)
@@ -1638,7 +1638,7 @@
       (net 1 /+18V))
   )
 
-  (module 10: (layer F.Cu) (tedit 53089FDC) (tstamp 5308772A)
+  (module resistor-0207/10 (layer F.Cu) (tedit 53089FDC) (tstamp 5308772A)
     (at 180 72.5 180)
     (descr RESISTOR)
     (tags RESISTOR)
