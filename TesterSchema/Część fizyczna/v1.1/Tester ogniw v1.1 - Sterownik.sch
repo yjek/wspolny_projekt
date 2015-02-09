@@ -1,7 +1,12 @@
 EESchema Schematic File Version 2
+LIBS:Analogowe
+LIBS:Cyfrowe
+LIBS:Elektromechaniczne
+LIBS:Podstawowe
 LIBS:power
-LIBS:Tester ogniw v1.1 - Sterownik-cache
-EELAYER 27 0
+LIBS:Pozostałe
+LIBS:Złącza
+EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -694,18 +699,6 @@ F 3 "" H 2450 6150 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D-SUB-DE-9 K1
-U 1 1 508D8A22
-P 2150 5900
-F 0 "K1" H 2150 6300 40  0000 C CNN
-F 1 "D-SUB-DE-9" H 2200 6225 40  0000 C CNN
-F 2 "" H 2150 5900 60  0001 C CNN
-F 3 "" H 2150 5900 60  0001 C CNN
-F 4 "F" H 2400 6150 40  0000 C CNN "Rodzaj"
-	1    2150 5900
-	-1   0    0    -1  
-$EndComp
-$Comp
 L C C7
 U 1 1 508D7C14
 P 2400 5250
@@ -1059,17 +1052,6 @@ Text Label 1150 2800 0    40   ~ 0
 VRef
 Text Label 1250 1150 0    40   ~ 0
 Reset
-$Comp
-L ATMEGA16-PU uC1
-U 1 1 50A95A14
-P 2650 2850
-F 0 "uC1" H 2300 4400 60  0000 C CNN
-F 1 "ATMEGA16-PU" H 2650 3000 60  0000 C CNN
-F 2 "DIP-40" H 2650 2700 60  0000 C CNN
-F 3 "" H 2650 2850 60  0001 C CNN
-	1    2650 2850
-	1    0    0    -1  
-$EndComp
 Text Label 4100 3150 2    40   ~ 0
 TDI
 Text Label 4100 3250 2    40   ~ 0
@@ -1080,17 +1062,6 @@ Text Label 4100 3450 2    40   ~ 0
 TCK
 Entry Wire Line
 	4100 7200 4200 7300
-$Comp
-L JTAG-ATMEL K2
-U 1 1 50A96663
-P 4850 1600
-F 0 "K2" H 4800 2150 40  0000 L CNN
-F 1 "JTAG-ATMEL" V 4950 1350 40  0000 L CNN
-F 2 "" H 4850 1600 60  0001 C CNN
-F 3 "" H 4850 1600 60  0001 C CNN
-	1    4850 1600
-	1    0    0    -1  
-$EndComp
 NoConn ~ 4500 1850
 Text Label 4300 1150 0    40   ~ 0
 TCK
@@ -1308,39 +1279,6 @@ F 2 "" H 8150 2850 60  0001 C CNN
 F 3 "" H 8150 2850 60  0001 C CNN
 	2    8150 2850
 	1    0    0    1   
-$EndComp
-$Comp
-L +18VA #PWR33
-U 1 1 50DAFAF0
-P 7350 1050
-F 0 "#PWR33" H 7350 1250 40  0001 C CNN
-F 1 "+18VA" H 7350 1160 40  0000 C CNN
-F 2 "" H 7350 1050 60  0001 C CNN
-F 3 "" H 7350 1050 60  0001 C CNN
-	1    7350 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L +18VA #PWR39
-U 1 1 50DAFAFF
-P 8300 3200
-F 0 "#PWR39" H 8300 3400 40  0001 C CNN
-F 1 "+18VA" H 8300 3310 40  0000 C CNN
-F 2 "" H 8300 3200 60  0001 C CNN
-F 3 "" H 8300 3200 60  0001 C CNN
-	1    8300 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L +18VA #PWR30
-U 1 1 50DAFB0E
-P 6900 4650
-F 0 "#PWR30" H 6900 4850 40  0001 C CNN
-F 1 "+18VA" H 6900 4760 40  0000 C CNN
-F 2 "" H 6900 4650 60  0001 C CNN
-F 3 "" H 6900 4650 60  0001 C CNN
-	1    6900 4650
-	1    0    0    -1  
 $EndComp
 $Comp
 L +5VD #PWR024
@@ -1803,17 +1741,6 @@ Entry Wire Line
 	4100 10050 4200 9950
 NoConn ~ 3900 9550
 NoConn ~ 3900 9650
-$Comp
-L 78XX_ US5
-U 1 1 50F1B11E
-P 7950 1150
-F 0 "US5" H 7750 1425 60  0000 L BNN
-F 1 "7805" H 7750 1325 60  0000 L BNN
-F 2 "" H 7950 1150 60  0001 C CNN
-F 3 "" H 7950 1150 60  0001 C CNN
-	1    7950 1150
-	1    0    0    -1  
-$EndComp
 $Comp
 L T_NPN T2
 U 1 1 511C0AAF
@@ -2719,4 +2646,81 @@ Text Notes 9450 2550 0    40   ~ 0
 Tranzystor pośredniczący w przesuwaniu\nnapięć sterującego i zasilania sterowanego\nMOSFET-a niepotrzebny bo MOSFET znajduje się\nw gałęzi ujemnej (sterowany względem masy).
 Text Notes 11000 6400 0    39   ~ 0
 Zmienić dzielnik\nna max 3V dla Xmega.\nMCP ma 1024\nalbo 4096.
+$Comp
+L ATmega16-PU uC1
+U 1 1 54D914EE
+P 2650 2850
+F 0 "uC1" H 2300 4400 60  0000 C CNN
+F 1 "ATmega16-PU" H 2650 3000 60  0000 C CNN
+F 2 "DIP-40" H 2650 2700 60  0000 C CNN
+F 3 "" H 2650 2850 60  0000 C CNN
+	1    2650 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L JTAG-atmel K2
+U 1 1 54D91892
+P 4850 1600
+F 0 "K2" H 4800 2150 40  0000 L CNN
+F 1 "JTAG-atmel" V 4950 1350 40  0000 L CNN
+F 2 "" H 4850 1600 60  0000 C CNN
+F 3 "" H 4850 1600 60  0000 C CNN
+	1    4850 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L D-Sub-DE-9 K1
+U 1 1 54D91E42
+P 2150 5900
+F 0 "K1" H 2150 6300 40  0000 C CNN
+F 1 "D-Sub-DE-9" H 2150 6225 40  0000 C CNN
+F 2 "" H 2150 5900 60  0000 C CNN
+F 3 "" H 2150 5900 60  0000 C CNN
+	1    2150 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +18Va #PWR?
+U 1 1 54D92FBF
+P 6900 4650
+F 0 "#PWR?" H 6900 4850 40  0001 C CNN
+F 1 "+18Va" H 6900 4760 40  0000 C CNN
+F 2 "" H 6900 4650 60  0000 C CNN
+F 3 "" H 6900 4650 60  0000 C CNN
+	1    6900 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +18Va #PWR?
+U 1 1 54D93671
+P 8300 3200
+F 0 "#PWR?" H 8300 3400 40  0001 C CNN
+F 1 "+18Va" H 8300 3310 40  0000 C CNN
+F 2 "" H 8300 3200 60  0000 C CNN
+F 3 "" H 8300 3200 60  0000 C CNN
+	1    8300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +18Va #PWR?
+U 1 1 54D93A8F
+P 7350 1050
+F 0 "#PWR?" H 7350 1250 40  0001 C CNN
+F 1 "+18Va" H 7350 1160 40  0000 C CNN
+F 2 "" H 7350 1050 60  0000 C CNN
+F 3 "" H 7350 1050 60  0000 C CNN
+	1    7350 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 78xx US5
+U 1 1 54D95632
+P 7950 1150
+F 0 "US5" H 7750 1425 60  0000 L BNN
+F 1 "7805" H 7750 1325 60  0000 L BNN
+F 2 "" H 7950 1150 60  0000 C CNN
+F 3 "" H 7950 1150 60  0000 C CNN
+	1    7950 1150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

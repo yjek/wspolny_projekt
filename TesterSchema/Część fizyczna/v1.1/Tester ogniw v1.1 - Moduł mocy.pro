@@ -1,5 +1,5 @@
-update=sob, 22 lut 2014, 16:54:42
-last_client=pcbnew
+update=pon, 9 lut 2015, 21:18:05
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -63,3 +63,16 @@ LibName17=Modele
 LibName18=Optoelektronika
 LibName19=Rezystory
 LibName20=Złącza
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=Postprodukcja/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=40

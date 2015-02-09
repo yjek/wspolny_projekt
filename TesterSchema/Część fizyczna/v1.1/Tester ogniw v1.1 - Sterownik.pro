@@ -1,5 +1,5 @@
-update=wto, 18 lut 2014, 21:59:51
-last_client=eeschema
+update=pon, 9 lut 2015, 20:33:32
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=Tester ogniw v1.1 - Sterownik.net
@@ -40,9 +40,12 @@ NetIExt=net
 EquName1=devcms
 [eeschema]
 version=1
-LibDir=
-NetFmtName=PcbnewAdvanced
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
+LibDir=../../[ Biblioteka KiCAD Yjek 2014.02.22 ]/Symbole
+[eeschema/libraries]
+LibName1=Analogowe
+LibName2=Cyfrowe
+LibName3=Elektromechaniczne
+LibName4=Podstawowe
+LibName5=power
+LibName6=Pozostałe
+LibName7=Złącza

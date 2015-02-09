@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name Elektromechaniczne)(type Legacy)(uri "${KIPRJMOD}/../../[ Biblioteka KiCAD Yjek 2014.02.22 ]/Modele/Elektromechaniczne.mod")(options "")(descr ""))
+  (lib (name Modele)(type Legacy)(uri "${KIPRJMOD}/../../[ Biblioteka KiCAD Yjek 2014.02.22 ]/Modele/Modele.mod")(options "")(descr ""))
+  (lib (name Optoelektronika)(type Legacy)(uri "${KIPRJMOD}/../../[ Biblioteka KiCAD Yjek 2014.02.22 ]/Modele/Optoelektronika.mod")(options "")(descr ""))
+  (lib (name Rezystory)(type Legacy)(uri "${KIPRJMOD}/../../[ Biblioteka KiCAD Yjek 2014.02.22 ]/Modele/Rezystory.mod")(options "")(descr ""))
+  (lib (name Złącza)(type Legacy)(uri "${KIPRJMOD}/../../[ Biblioteka KiCAD Yjek 2014.02.22 ]/Modele/Złącza.mod")(options "")(descr ""))
+)

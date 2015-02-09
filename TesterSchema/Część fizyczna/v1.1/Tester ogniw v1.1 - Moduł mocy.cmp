@@ -1,4 +1,11 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = sob, 22 lut 2014, 16:55:59
+Cmp-Mod V01 Created by Cvpcb (2015-02-06 BZR 5410)-product   date = pon, 9 lut 2015, 21:48:15
+
+BeginCmp
+TimeStamp = /54D98A61;
+Reference = C1;
+ValeurCmp = 100V;
+IdModule  = ;
+EndCmp
 
 BeginCmp
 TimeStamp = /5140F82E;
@@ -11,7 +18,7 @@ BeginCmp
 TimeStamp = /530788F7;
 Reference = D2;
 ValeurCmp = D_SCH;
-IdModule  = DO-8;
+IdModule  = Modele:DO-8;
 EndCmp
 
 BeginCmp
@@ -25,28 +32,28 @@ BeginCmp
 TimeStamp = /50A5650A;
 Reference = F1;
 ValeurCmp = F;
-IdModule  = BEZP-19MM-AMFGN;
+IdModule  = Modele:BEZP-19MM-AMFGN;
 EndCmp
 
 BeginCmp
 TimeStamp = /508845B8;
 Reference = F2;
 ValeurCmp = F;
-IdModule  = BEZP-19MM-AMFGN;
+IdModule  = Modele:BEZP-19MM-AMFGN;
 EndCmp
 
 BeginCmp
 TimeStamp = /50871450;
 Reference = FT1;
 ValeurCmp = FT;
-IdModule  = PIN-2-I;
+IdModule  = Modele:PIN-2-I;
 EndCmp
 
 BeginCmp
 TimeStamp = /5088E9F4;
 Reference = FT2;
 ValeurCmp = FT;
-IdModule  = PIN-2-I;
+IdModule  = Modele:PIN-2-I;
 EndCmp
 
 BeginCmp
@@ -78,17 +85,17 @@ IdModule  = ark500-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /5140F34F;
+TimeStamp = /53090295;
 Reference = PR1;
 ValeurCmp = 12V;
-IdModule  = ELEKTROMECH-PR-S40-DPDT;
+IdModule  = Elektromechaniczne:ELEKTROMECH-PR-S40-DPDT;
 EndCmp
 
 BeginCmp
-TimeStamp = /5307979F;
+TimeStamp = /530905F0;
 Reference = PR2;
 ValeurCmp = 12V;
-IdModule  = ELEKTROMECH-PR-S40-DPDT;
+IdModule  = Elektromechaniczne:ELEKTROMECH-PR-S40-DPDT;
 EndCmp
 
 BeginCmp
@@ -123,70 +130,70 @@ BeginCmp
 TimeStamp = /5140F9F9;
 Reference = R5;
 ValeurCmp = 10k;
-IdModule  = resistor-0207/7;
+IdModule  = 7:;
 EndCmp
 
 BeginCmp
 TimeStamp = /5140FC25;
 Reference = R6;
 ValeurCmp = Jeszcze nie wiem;
-IdModule  = resistor-0207/10;
+IdModule  = 10:;
 EndCmp
 
 BeginCmp
 TimeStamp = /5148D98B;
 Reference = R7;
 ValeurCmp = 10k;
-IdModule  = resistor-0207/7;
+IdModule  = 7:;
 EndCmp
 
 BeginCmp
 TimeStamp = /5148D992;
 Reference = R8;
 ValeurCmp = 2k2;
-IdModule  = resistor-0207/7;
+IdModule  = 7:;
 EndCmp
 
 BeginCmp
 TimeStamp = /5148D9B6;
 Reference = R9;
 ValeurCmp = 1k5;
-IdModule  = resistor-0207/7;
+IdModule  = 7:;
 EndCmp
 
 BeginCmp
 TimeStamp = /5148D9C6;
 Reference = R10;
 ValeurCmp = 1k5;
-IdModule  = resistor-0207/7;
+IdModule  = 7:;
 EndCmp
 
 BeginCmp
 TimeStamp = /5140FA75;
 Reference = R11;
 ValeurCmp = 10k;
-IdModule  = resistor-0207/7;
+IdModule  = 7:;
 EndCmp
 
 BeginCmp
 TimeStamp = /5140FBAD;
 Reference = R12;
 ValeurCmp = Jeszcze nie wiem;
-IdModule  = resistor-0207/10;
+IdModule  = 10:;
 EndCmp
 
 BeginCmp
 TimeStamp = /508708CE;
 Reference = R13;
 ValeurCmp = 100k;
-IdModule  = resistor-0207/7;
+IdModule  = 7:;
 EndCmp
 
 BeginCmp
 TimeStamp = /5148E141;
 Reference = R14;
 ValeurCmp = 1k5;
-IdModule  = resistor-0207/7;
+IdModule  = 7:;
 EndCmp
 
 BeginCmp
@@ -218,10 +225,17 @@ IdModule  = resistor-25W_17x29;
 EndCmp
 
 BeginCmp
+TimeStamp = /54D98A9C;
+Reference = R19;
+ValeurCmp = 5W;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /508845E4;
 Reference = R24;
 ValeurCmp = 100k;
-IdModule  = resistor-0207/10;
+IdModule  = 10:;
 EndCmp
 
 BeginCmp
@@ -263,35 +277,35 @@ BeginCmp
 TimeStamp = /5140F66A;
 Reference = T3;
 ValeurCmp = BC547;
-IdModule  = TO-92-B;
+IdModule  = Modele:TO-92-B;
 EndCmp
 
 BeginCmp
 TimeStamp = /5148D97E;
 Reference = T4;
 ValeurCmp = BC547;
-IdModule  = TO-92-B;
+IdModule  = Modele:TO-92-B;
 EndCmp
 
 BeginCmp
 TimeStamp = /5148D9A9;
 Reference = T5;
 ValeurCmp = T_PNP;
-IdModule  = TO-92-B;
+IdModule  = Modele:TO-92-B;
 EndCmp
 
 BeginCmp
 TimeStamp = /5140F65D;
 Reference = T6;
 ValeurCmp = BC547;
-IdModule  = TO-92-B;
+IdModule  = Modele:TO-92-B;
 EndCmp
 
 BeginCmp
 TimeStamp = /5148E13B;
 Reference = T7;
 ValeurCmp = T_PNP;
-IdModule  = TO-92-B;
+IdModule  = Modele:TO-92-B;
 EndCmp
 
 EndListe
