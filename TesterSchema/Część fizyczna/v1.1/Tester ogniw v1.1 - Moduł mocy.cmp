@@ -130,70 +130,70 @@ BeginCmp
 TimeStamp = /5140F9F9;
 Reference = R5;
 ValeurCmp = 10k;
-IdModule  = 7:;
+IdModule  = resistor-0207_7;
 EndCmp
 
 BeginCmp
 TimeStamp = /5140FC25;
 Reference = R6;
 ValeurCmp = Jeszcze nie wiem;
-IdModule  = 10:;
+IdModule  = resistor-0207_10;
 EndCmp
 
 BeginCmp
 TimeStamp = /5148D98B;
 Reference = R7;
 ValeurCmp = 10k;
-IdModule  = 7:;
+IdModule  = resistor-0207_7;
 EndCmp
 
 BeginCmp
 TimeStamp = /5148D992;
 Reference = R8;
 ValeurCmp = 2k2;
-IdModule  = 7:;
+IdModule  = resistor-0207_7;
 EndCmp
 
 BeginCmp
 TimeStamp = /5148D9B6;
 Reference = R9;
 ValeurCmp = 1k5;
-IdModule  = 7:;
+IdModule  = resistor-0207_7;
 EndCmp
 
 BeginCmp
 TimeStamp = /5148D9C6;
 Reference = R10;
 ValeurCmp = 1k5;
-IdModule  = 7:;
+IdModule  = resistor-0207_7;
 EndCmp
 
 BeginCmp
 TimeStamp = /5140FA75;
 Reference = R11;
 ValeurCmp = 10k;
-IdModule  = 7:;
+IdModule  = resistor-0207_7;
 EndCmp
 
 BeginCmp
 TimeStamp = /5140FBAD;
 Reference = R12;
 ValeurCmp = Jeszcze nie wiem;
-IdModule  = 10:;
+IdModule  = resistor-0207_10;
 EndCmp
 
 BeginCmp
 TimeStamp = /508708CE;
 Reference = R13;
 ValeurCmp = 100k;
-IdModule  = 7:;
+IdModule  = resistor-0207_7;
 EndCmp
 
 BeginCmp
 TimeStamp = /5148E141;
 Reference = R14;
 ValeurCmp = 1k5;
-IdModule  = 7:;
+IdModule  = resistor-0207_7;
 EndCmp
 
 BeginCmp
@@ -235,7 +235,7 @@ BeginCmp
 TimeStamp = /508845E4;
 Reference = R24;
 ValeurCmp = 100k;
-IdModule  = 10:;
+IdModule  = resistor-0207_10;
 EndCmp
 
 BeginCmp

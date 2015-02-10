@@ -1989,7 +1989,7 @@
       (net 43 GND))
   )
 
-  (module 2V: (layer Gorna) (tedit 5148B864) (tstamp 50D02E15)
+  (module resistor-0207_2V (layer Gorna) (tedit 5148B864) (tstamp 50D02E15)
     (at 144.5 96.2 270)
     (descr RESISTOR)
     (tags RESISTOR)
@@ -2939,7 +2939,7 @@
     )
   )
 
-  (module 7: (layer Gorna) (tedit 5148B535) (tstamp 50D02BF5)
+  (module resistor-0207_7 (layer Gorna) (tedit 5148B535) (tstamp 50D02BF5)
     (at 174.2 67 90)
     (descr RESISTOR)
     (tags RESISTOR)

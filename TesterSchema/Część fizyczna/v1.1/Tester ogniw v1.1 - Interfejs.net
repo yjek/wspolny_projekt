@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/home/gralmarine/.local/share/ubuntuone/shares/Wspólny projekt (Szalony elektronik, c172be18-8394-4ab2-b124-a93044b8c779)/Wspólny projekt/Przyrządy/Rozwinięty system diagnozy ogniw/Część fizyczna/v1.1/Tester ogniw v1.1 - Interfejs.sch")
-    (date "śro, 20 lut 2013, 12:17:51")
+    (date "śro, 20 lut 2013, 12:1resistor-0207_751")
     (tool "eeschema (2012-nov-02)-testing"))
   (components
     (comp (ref C5)

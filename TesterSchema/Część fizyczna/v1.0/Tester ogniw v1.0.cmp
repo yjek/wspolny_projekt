@@ -529,7 +529,7 @@ BeginCmp
 TimeStamp = /508C1AE1;
 Reference = R22;
 ValeurCmp = 10k;
-IdModule  = resistor-0207/7;
+IdModule  = resistor-0207_7;
 EndCmp
 
 BeginCmp
@@ -571,7 +571,7 @@ BeginCmp
 TimeStamp = /50A9260C;
 Reference = R28;
 ValeurCmp = 10k;
-IdModule  = resistor-0207/2V;
+IdModule  = resistor-0207_2V;
 EndCmp
 
 BeginCmp
