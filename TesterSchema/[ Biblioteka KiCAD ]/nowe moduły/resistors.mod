@@ -4,34 +4,34 @@ Units mm
 $INDEX
 LCD_ALPHA_full
 POT-H-5-10
-resistor-0204/5
-resistor-0204/7
+resistor-0207_5
+resistor-0207_7
 resistor-0204V
 resistor-0207-10-ELL
-resistor-0207/10
-resistor-0207/12
-resistor-0207/15
-resistor-0207/2V
-resistor-0207/5V
-resistor-0207/7
-resistor-0309/10
-resistor-0309/12
-resistor-0309/15
-resistor-0309/20
+resistor-0207_10
+resistor-0207_12
+resistor-0207_15
+resistor-0207_2V
+resistor-0207_5V
+resistor-0207_7
+resistor-0309_10
+resistor-0309_12
+resistor-0309_15
+resistor-0309_20
 resistor-0309V
-resistor-0411/12
-resistor-0411/15
+resistor-0411_12
+resistor-0411_15
 resistor-0411V
-resistor-0414/15
+resistor-0414_15
 resistor-0414V
-resistor-0617/17
-resistor-0617/22
+resistor-0617_17
+resistor-0617_22
 resistor-0617V
 resistor-085CS_1AR
 resistor-085CS_1AW
 resistor-085CS_1R
 resistor-085CS_1W
-resistor-0922/22
+resistor-0922_22
 resistor-0922V
 resistor-10W_9x49
 resistor-2200-11.43
@@ -265,9 +265,9 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE POT-H-5-10
-$MODULE resistor-0204/5
+$MODULE resistor-0207_5
 Po 0 0 0 15 00200000 00000000 ~~
-Li resistor-0204/5
+Li resistor-0207_5
 Cd RESISTOR
 Kw RESISTOR
 Sc 0
@@ -316,10 +316,10 @@ At STD N 00A88001
 Ne 0 ""
 Po 2.54 0
 $EndPAD
-$EndMODULE resistor-0204/5
-$MODULE resistor-0204/7
+$EndMODULE resistor-0207_5
+$MODULE resistor-0207_7
 Po 0 0 0 15 00200000 00000000 ~~
-Li resistor-0204/7
+Li resistor-0207_7
 Cd RESISTOR
 Kw RESISTOR
 Sc 0
@@ -368,7 +368,7 @@ At STD N 00A88001
 Ne 0 ""
 Po 3.81 0
 $EndPAD
-$EndMODULE resistor-0204/7
+$EndMODULE resistor-0207_7
 $MODULE resistor-0204V
 Po 0 0 0 15 00200000 00000000 ~~
 Li resistor-0204V
@@ -451,9 +451,9 @@ Ne 1 "N-0000024"
 Po 5.08 0
 $EndPAD
 $EndMODULE resistor-0207-10-ELL
-$MODULE resistor-0207/10
+$MODULE resistor-0207_10
 Po 0 0 0 15 00200000 00000000 ~~
-Li resistor-0207/10
+Li resistor-0207_10
 Cd RESISTOR
 Kw RESISTOR
 Sc 0
@@ -502,10 +502,10 @@ At STD N 00A88001
 Ne 0 ""
 Po 5.08 0
 $EndPAD
-$EndMODULE resistor-0207/10
-$MODULE resistor-0207/12
+$EndMODULE resistor-0207_10
+$MODULE resistor-0207_12
 Po 0 0 0 15 00200000 00000000 ~~
-Li resistor-0207/12
+Li resistor-0207_12
 Cd RESISTOR
 Kw RESISTOR
 Sc 0
@@ -564,10 +564,10 @@ At STD N 00A88001
 Ne 0 ""
 Po 6.35 0
 $EndPAD
-$EndMODULE resistor-0207/12
-$MODULE resistor-0207/15
+$EndMODULE resistor-0207_12
+$MODULE resistor-0207_15
 Po 0 0 0 15 00200000 00000000 ~~
-Li resistor-0207/15
+Li resistor-0207_15
 Cd RESISTOR
 Kw RESISTOR
 Sc 0
@@ -626,10 +626,10 @@ At STD N 00A88001
 Ne 0 ""
 Po 7.62 0
 $EndPAD
-$EndMODULE resistor-0207/15
-$MODULE resistor-0207/2V
+$EndMODULE resistor-0207_15
+$MODULE resistor-0207_2V
 Po 0 0 0 15 00200000 00000000 ~~
-Li resistor-0207/2V
+Li resistor-0207_2V
 Cd RESISTOR
 Kw RESISTOR
 Sc 0
@@ -657,10 +657,10 @@ At STD N 00A88001
 Ne 0 ""
 Po 1.27 0
 $EndPAD
-$EndMODULE resistor-0207/2V
-$MODULE resistor-0207/5V
+$EndMODULE resistor-0207_2V
+$MODULE resistor-0207_5V
 Po 0 0 0 15 00200000 00000000 ~~
-Li resistor-0207/5V
+Li resistor-0207_5V
 Cd RESISTOR
 Kw RESISTOR
 Sc 0
@@ -688,10 +688,10 @@ At STD N 00A88001
 Ne 0 ""
 Po 2.54 0
 $EndPAD
-$EndMODULE resistor-0207/5V
-$MODULE resistor-0207/7
+$EndMODULE resistor-0207_5V
+$MODULE resistor-0207_7
 Po 0 0 0 15 00200000 00000000 ~~
-Li resistor-0207/7
+Li resistor-0207_7
 Cd RESISTOR
 Kw RESISTOR
 Sc 0
@@ -740,10 +740,10 @@ At STD N 00A88001
 Ne 0 ""
 Po 3.81 0
 $EndPAD
-$EndMODULE resistor-0207/7
-$MODULE resistor-0309/10
+$EndMODULE resistor-0207_7
+$MODULE resistor-0309_10
 Po 0 0 0 15 00200000 00000000 ~~
-Li resistor-0309/10
+Li resistor-0309_10
 Cd RESISTOR
 Kw RESISTOR
 Sc 0
@@ -792,10 +792,10 @@ At STD N 00A88001
 Ne 0 ""
 Po 5.08 0
 $EndPAD
-$EndMODULE resistor-0309/10
-$MODULE resistor-0309/12
+$EndMODULE resistor-0309_10
+$MODULE resistor-0309_12
 Po 0 0 0 15 00200000 00000000 ~~
-Li resistor-0309/12
+Li resistor-0309_12
 Cd RESISTOR
 Kw RESISTOR
 Sc 0
@@ -844,10 +844,10 @@ At STD N 00A88001
 Ne 0 ""
 Po 6.35 0
 $EndPAD
-$EndMODULE resistor-0309/12
-$MODULE resistor-0309/15
+$EndMODULE resistor-0309_12
+$MODULE resistor-0309_15
 Po 0 0 0 15 00200000 00000000 ~~
-Li resistor-0309/15
+Li resistor-0309_15
 Cd RESISTOR
 Kw RESISTOR
 Sc 0
@@ -896,10 +896,10 @@ At STD N 00A88001
 Ne 0 ""
 Po 7.62 0
 $EndPAD
-$EndMODULE resistor-0309/15
-$MODULE resistor-0309/20
+$EndMODULE resistor-0309_15
+$MODULE resistor-0309_20
 Po 0 0 0 15 00200000 00000000 ~~
-Li resistor-0309/20
+Li resistor-0309_20
 Cd RESISTOR
 Kw RESISTOR
 Sc 0
@@ -948,7 +948,7 @@ At STD N 00A88001
 Ne 0 ""
 Po 10.16 0
 $EndPAD
-$EndMODULE resistor-0309/20
+$EndMODULE resistor-0309_20
 $MODULE resistor-0309V
 Po 0 0 0 15 00200000 00000000 ~~
 Li resistor-0309V
@@ -991,9 +991,9 @@ Ne 0 ""
 Po 1.27 0
 $EndPAD
 $EndMODULE resistor-0309V
-$MODULE resistor-0411/12
+$MODULE resistor-0411_12
 Po 0 0 0 15 00200000 00000000 ~~
-Li resistor-0411/12
+Li resistor-0411_12
 Cd RESISTOR
 Kw RESISTOR
 Sc 0
@@ -1042,10 +1042,10 @@ At STD N 00A88001
 Ne 0 ""
 Po 6.35 0
 $EndPAD
-$EndMODULE resistor-0411/12
-$MODULE resistor-0411/15
+$EndMODULE resistor-0411_12
+$MODULE resistor-0411_15
 Po 0 0 0 15 00200000 00000000 ~~
-Li resistor-0411/15
+Li resistor-0411_15
 Cd RESISTOR
 Kw RESISTOR
 Sc 0
@@ -1094,7 +1094,7 @@ At STD N 00A88001
 Ne 0 ""
 Po 7.62 0
 $EndPAD
-$EndMODULE resistor-0411/15
+$EndMODULE resistor-0411_15
 $MODULE resistor-0411V
 Po 0 0 0 15 00200000 00000000 ~~
 Li resistor-0411V
@@ -1129,9 +1129,9 @@ Ne 0 ""
 Po 1.27 0
 $EndPAD
 $EndMODULE resistor-0411V
-$MODULE resistor-0414/15
+$MODULE resistor-0414_15
 Po 0 0 0 15 00200000 00000000 ~~
-Li resistor-0414/15
+Li resistor-0414_15
 Cd RESISTOR
 Kw RESISTOR
 Sc 0
@@ -1180,7 +1180,7 @@ At STD N 00A88001
 Ne 0 ""
 Po 7.62 0
 $EndPAD
-$EndMODULE resistor-0414/15
+$EndMODULE resistor-0414_15
 $MODULE resistor-0414V
 Po 0 0 0 15 00200000 00000000 ~~
 Li resistor-0414V
@@ -1215,9 +1215,9 @@ Ne 0 ""
 Po 2.54 0
 $EndPAD
 $EndMODULE resistor-0414V
-$MODULE resistor-0617/17
+$MODULE resistor-0617_17
 Po 0 0 0 15 00200000 00000000 ~~
-Li resistor-0617/17
+Li resistor-0617_17
 Cd RESISTOR
 Kw RESISTOR
 Sc 0
@@ -1270,10 +1270,10 @@ At STD N 00A88001
 Ne 0 ""
 Po 8.89 0
 $EndPAD
-$EndMODULE resistor-0617/17
-$MODULE resistor-0617/22
+$EndMODULE resistor-0617_17
+$MODULE resistor-0617_22
 Po 0 0 0 15 00200000 00000000 ~~
-Li resistor-0617/22
+Li resistor-0617_22
 Cd RESISTOR
 Kw RESISTOR
 Sc 0
@@ -1322,7 +1322,7 @@ At STD N 00A88001
 Ne 0 ""
 Po 11.43 0
 $EndPAD
-$EndMODULE resistor-0617/22
+$EndMODULE resistor-0617_22
 $MODULE resistor-0617V
 Po 0 0 0 15 00200000 00000000 ~~
 Li resistor-0617V
@@ -1585,9 +1585,9 @@ Ne 0 ""
 Po -5.94868 0
 $EndPAD
 $EndMODULE resistor-085CS_1W
-$MODULE resistor-0922/22
+$MODULE resistor-0922_22
 Po 0 0 0 15 00200000 00000000 ~~
-Li resistor-0922/22
+Li resistor-0922_22
 Cd RESISTOR
 Kw RESISTOR
 Sc 0
@@ -1644,7 +1644,7 @@ At STD N 00A88001
 Ne 0 ""
 Po 11.43 0
 $EndPAD
-$EndMODULE resistor-0922/22
+$EndMODULE resistor-0922_22
 $MODULE resistor-0922V
 Po 0 0 0 15 00200000 00000000 ~~
 Li resistor-0922V
