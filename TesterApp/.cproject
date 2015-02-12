@@ -25,6 +25,7 @@
 							<builder buildPath="${workspace_loc:/Ladowarka_aku}/Release" id="de.innot.avreclipse.target.builder.winavr.app.release.874385244" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="AVR GNU Make Builder" superClass="de.innot.avreclipse.target.builder.winavr.app.release"/>
 							<tool id="de.innot.avreclipse.tool.assembler.winavr.app.release.183645507" name="AVR Assembler" superClass="de.innot.avreclipse.tool.assembler.winavr.app.release">
 								<option id="de.innot.avreclipse.assembler.option.debug.level.1507099721" name="Generate Debugging Info" superClass="de.innot.avreclipse.assembler.option.debug.level" value="de.innot.avreclipse.assembler.option.debug.level.none" valueType="enumerated"/>
+								<option id="de.innot.avreclipse.asm.option.omitfcpu.1396902165" name="Omit F_CPU" superClass="de.innot.avreclipse.asm.option.omitfcpu" value="false" valueType="boolean"/>
 								<inputType id="de.innot.avreclipse.tool.assembler.input.244837302" superClass="de.innot.avreclipse.tool.assembler.input"/>
 							</tool>
 							<tool id="de.innot.avreclipse.tool.compiler.winavr.app.release.1528566005" name="AVR Compiler" superClass="de.innot.avreclipse.tool.compiler.winavr.app.release">
@@ -35,7 +36,7 @@
 							<tool id="de.innot.avreclipse.tool.cppcompiler.app.release.254625603" name="AVR C++ Compiler" superClass="de.innot.avreclipse.tool.cppcompiler.app.release">
 								<option id="de.innot.avreclipse.cppcompiler.option.debug.level.1841826088" name="Generate Debugging Info" superClass="de.innot.avreclipse.cppcompiler.option.debug.level" value="de.innot.avreclipse.cppcompiler.option.debug.level.none" valueType="enumerated"/>
 								<option id="de.innot.avreclipse.cppcompiler.option.optimize.1035553234" name="Optimization Level" superClass="de.innot.avreclipse.cppcompiler.option.optimize" value="de.innot.avreclipse.cppcompiler.optimize.size" valueType="enumerated"/>
-								<option id="de.innot.avreclipse.cppcompiler.option.otherflags.1509786029" name="Other flags" superClass="de.innot.avreclipse.cppcompiler.option.otherflags" value="-Wextra -pedantic -g -std=c++11" valueType="string"/>
+								<option id="de.innot.avreclipse.cppcompiler.option.otherflags.1509786029" name="Other flags" superClass="de.innot.avreclipse.cppcompiler.option.otherflags" value="-Wextra -pedantic -g -std=c++11 -lto" valueType="string"/>
 								<inputType id="de.innot.avreclipse.cppcompiler.input.1600164" superClass="de.innot.avreclipse.cppcompiler.input"/>
 							</tool>
 							<tool id="de.innot.avreclipse.tool.linker.winavr.app.release.988934347" name="AVR C Linker" superClass="de.innot.avreclipse.tool.linker.winavr.app.release"/>
