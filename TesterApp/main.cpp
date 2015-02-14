@@ -5,9 +5,30 @@
 
 #include <avr/io.h>
 
-
 #include "osc.hpp"
 #include "fixedpoint/fixed_class.h"
+
+class GPIO_pins
+{
+	uint8_t pin1 :1;
+};
+
+class GPIO
+{
+public:
+
+	GPIO ( PORT_t &port ):
+	m_port(port)
+	{}
+
+	void pinToggle(char pin)
+	{
+		m_port.OUTTGL = 1<<pin;
+	}
+
+private:
+	PORT_t &m_port;
+};
 
 int main(void) {
 	auto clock = new ClockConfig;
@@ -29,6 +50,9 @@ int main(void) {
 
 
 	while(1){
+		GPIO pa ( PORTA );
+		pa.pinToggle(2);
+
 		myPoint = fixedpoint::fixed_point<16>((int32_t)PORTA_IN);
 		myPoint =  myPoint+1;
 		mySPoint = myPoint / mySPoint;
